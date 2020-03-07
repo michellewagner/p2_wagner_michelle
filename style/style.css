@@ -93,6 +93,52 @@ figcaption {
   text-align: center;
 }
 
+
+.desktop-menu {
+  background: #A87594;;
+  left: 0;
+  right: 0;
+  top: 85px;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+nav {
+  text-align: center;
+  color: White;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 30px;
+  }
+
+  a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 2px;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+
+  nav a:hover {
+    background: white;
+    color: #A87594;
+  }
+
+.home {
+    text-align: center;
+    color: White;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 30px;
+    }
+
+
 .sub-page {
   background: #A87594;
   left: 0;
@@ -130,6 +176,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 p {
 font-size: 30px;
 text-align: center;
+padding-bottom: 1%;
 }
 
 .bx {
@@ -147,9 +194,10 @@ box-shadow: 5px 5px 5px 5px #A87594;
 
   a {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
   text-decoration: none;
+  padding: 4%;
   }
 
 .intro {
@@ -191,16 +239,76 @@ img {
   max-width: 90%;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 4%;
+}
+
+.soon img {
+width: 500px;
+margin-left: 30%;
 }
 
 .about img {
-  Padding:0 10px;
+  padding:0 10px;
   transition: 2s;
 }
 .about img:hover {
   width: 600px;
   height: 600px;
   transition: 2s;
+}
+
+.email {
+  background:#58B9A9;
+  display: inline-block;
+  margin: 10px;
+}
+
+.mailing {
+  background:#58B9A9;
+  display: inline-block;
+  margin: 10px;
+}
+
+.phone {
+  background:#58B9A9;
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact-form {
+  background: #58B9A9;
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  color: purple;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.reset input,
+.submit input {
+  background: #A87594;
+  color: purple;
+  padding: 5px 20px;
+  display: inline;
+}
+
+.input-section{
+  margin-bottom: 10px;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+
+.forminfo {
+  margin: 50px auto 180px;
+  max-width: 900px;
+  margin: 50px auto 180px;
+  text-align: center;
 }
 
 /* <*footer*> */
@@ -213,13 +321,44 @@ footer {
 
 /* ********************Start 400px Media Query*************** */
 @media (min-width: 320px) {
- figure {
-   width: 50%
-}
+
+  .container {
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
 
 .contact {
   margin-left: 0%;
 }
+
+.about img {
+  margin: 5%;
+}
+
+.soon img {
+margin-left: 0%;
+}
+
+h1  {
+text-align: left;
+}
+
+.style, a, .bx {
+  font-size: 40px;
+}
+
+.products {
+  margin-left: 0%;
+}
+
+
 
 }
 /* **********************End 400px Media Query******************* */
@@ -228,8 +367,29 @@ footer {
 
 @media (min-width: 600px)  {
 
+
   .contact {
-    margin-left: 20%;
+    margin-left: 15%;
+  }
+
+  .about img {
+    margin: 1%;
+  }
+
+  .soon img {
+  margin-left: 15%;
+  }
+
+  h1  {
+  text-align: center;
+  }
+
+  .style, a, .bx {
+    font-size: 40px;
+  }
+
+  .products {
+    margin-left: 35%;
   }
 }
 
@@ -237,13 +397,19 @@ footer {
 	/* *******************END 600PX MEDIA QUERY******************** */
   /* start 800px********************* */
 @media (min-width: 800px) {
- figure {
-   width: 75%;
- }
+
 
  .contact {
-   margin-left: 30%;
+   margin-left: 25%;
  }
+
+ .soon img {
+ margin-left: 25%;
+ }
+
+ .style, a, .bx {
+   font-size: 52px;
+}
 
 }
 /* end 800px*************************************** */
@@ -254,8 +420,27 @@ footer {
    .contact {
      margin-left: 35%;
    }
-}
 
+   .soon img {
+   margin-left: 35%;
+   }
+
+   .container {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   }
+
+   .container2 {
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+   }
+
+   .style, a, {
+     font-size: 52px;
+  }
+}
 
 
 /* ********End 1000px Media Query**************************** */
@@ -263,8 +448,7 @@ footer {
 /* Start 1200px*********************************************** */
 
 @media (min-width: 1200px) {
-figure {
-  width: 100%;
-}
+
+
 }
 /* end 1200px************************************* */
