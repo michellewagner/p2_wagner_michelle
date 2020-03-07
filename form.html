@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shelkay's Boutique</title>
+  <meta charset="utf-8" />
+
+  <!-- FAVIcon -->
+<link rel="icon" type="image/png" href="images/favicon/favicon.png" />
+<link rel="icon" type="image/ico" href="images/favicon/favicon2.ico" />
+
+  <!-- CSS -->
+<link href="style/style.css" rel="stylesheet" type="text/css"/>
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script type="text/javascript" scr="scripts/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>Shelkay's Boutique<img src="images/favicon/Logo.jpg" atl="Boutique Logo" title="Shelkay's Boutique" width="80" /></h1>
+    <header class="sub-page">
+      <h2>Mailing List Sign up</h2>
+    </header>
+    <main>
+<form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+        <div class="firstname">
+          <label for="firstname" class="label_input_wrap">First Name:</label>
+          <input type="text" name="firstname" id="firstname" placeholder="Ex. John" />
+        </div>
+        <div class="lastname">
+          <label for="lastname" class="label_input_wrap">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Ex. Smith" />
+        </div>
+        <div class="email">
+          <label for="email" class="label_input_wrap">Email:</label>
+          <input type="email" name="email" id="email" placeholder="johnsmith@example.com" />
+        </div>
+        <div class="telephone">
+          <label for="telephone" class="label_input_wrap">Telephone:</label>
+          <input type="tel" name="telephone" id="telephone" placeholder="555.555.5555" />
+        </div>
+        <div class="comments">
+          <label for="comments" class="label_input_wrap">Comments:</label>
+          <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Your Comment Goes Here"></textarea>
+        </div>
+        <div class="reset">
+            <input type="reset" value="Refresh"/>
+        </div>
+        <div class="sumbit">
+          <input type="submit" value="Sign Up"/>
+        </div>
+      </form>
+    </main>
+
+    <footer class="sub">
+      <nav>
+        <table>
+          <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="products.html">Products</a></td>
+          <td><a href="services.html">Services</a></td>
+          <td><a href="about.html">About</a></td>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+        </table>
+      </nav>
+
+      <table>
+        <tr>
+          <td>Phone</td>
+          <td><a href="tel:702.969.3029">702.969.3029</a></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><a href="email:shelkay21@yahoo.com">shelkay21@yahoo.com</a></td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+  </html>
