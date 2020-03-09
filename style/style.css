@@ -4,10 +4,6 @@
   border: 0;
 }
 
-.desktop-menu {
-	display: none;
-}
-
 /* ***************************HAMBURGER MENU STYLES******************* */
 
 .hamburger{
@@ -66,11 +62,6 @@ Author: WebCastle
 Author URI: http://webcastletech.com/
 
 */
-
-
-
-
-
 
 .banner-container ul { height: 100%; }
 
@@ -134,7 +125,6 @@ background-color: white;
 color: purple;
 font-weight: bold;
 font-size: 6em;
-
 padding: 4%;
 }
 
@@ -153,7 +143,6 @@ h3 {
   font-weight: bold;
   font-size: 6em;
   text-align: center;
-
 }
 
 figcaption {
@@ -161,17 +150,21 @@ figcaption {
 }
 
   a {
-    font-size: 1em;
+    font-size: 2em;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 4%;
     text-decoration: none;
     margin: 0 auto;
     color: white;
+    text-align: center;
+    padding-left: 20%;
   }
 
   nav a:hover {
     background: #A87594;
     color: #A87594;
+    max-width: 2%;
+    max-height: 2%;
   }
 
 .home {
@@ -180,7 +173,7 @@ figcaption {
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
-    margin: 0 20px;
+    margin: 0 5%;
     }
 
 .sub-page {
@@ -196,7 +189,7 @@ h4 {
 font-family: 'Open Sans Condensed', sans-serif;
   color: black;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
   padding-left: 2%;
   text-align: center;
   padding: 3%;
@@ -234,7 +227,7 @@ color: black;
   background: #A87594;
   max-width: 750px;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;
+  font-size: 2em;
   align-content: center;
   margin-bottom: 3%;
   margin-top: 1%;
@@ -260,28 +253,26 @@ color: black;
 
 .products {
   background: #79a876;
-  max-width: 800px;
-  max-height: 2400px;
+  max-width: 45%;
+  max-height: 60%;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 3em;
-  align-content: center;
+  font-size: 2em;
   margin-bottom: 3%;
-  margin-left: 15%;
+  margin-left: 25%;
 }
 
 .products img {
   max-width: 80%;
+  padding-left: 20%;
 }
 
 .contact {
   background: #79a876;
-  max-width: 40%;
+  max-width: 35%;
   max-height: 40%;
   font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.contact img {
-  max-width: 15%;
+  margin-bottom: 2%;
+  margin-left: 35%;
 }
 
  .image-grid {
@@ -315,9 +306,9 @@ color: black;
  }
 
  .image-grid img {
-   max-width: 125%;
-   max-height: 125%;
-   height: 350px;
+   max-width: 75%;
+   max-height: 75%;
+   height: 200px;
  }
 
 .image-grid1 img {
@@ -327,19 +318,19 @@ color: black;
 }
 
 .soon img {
-width: 500px;
-margin-left: 15%;
+width: 50%;
+margin-left: 25%;
 padding-bottom: 2%;
 }
 
 .about img {
-  padding:0 10px;
+  padding:0 2%;
   transition: 2s;
 }
 
 .about img:hover {
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 50%;
   transition: 2s;
 }
 
@@ -373,7 +364,7 @@ padding-bottom: 2%;
   border-radius: 10px;
   color: purple;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;
+  font-size: 2em;
   margin: 0 auto;
   margin-bottom: 2%;
 }
@@ -387,7 +378,7 @@ padding-bottom: 2%;
 }
 
 .input-section{
-  margin-bottom: 10px;
+  margin-bottom: 3%;
 }
 
 .reset,
@@ -403,7 +394,7 @@ padding-bottom: 2%;
 }
 
 figure {
-  padding-left: 4%;
+ max-width: 100%;
 }
 
 /* <*footer*> */
@@ -429,32 +420,33 @@ footer {
     flex-direction: column;
     justify-content:space-around;
   }
+  .products {
+    background: #79a876;
+    margin-top: 3%;
+    max-width: 80%;
+    max-height: 60%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.75em;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
 
-.contact {
-  margin-left: 0%;
-}
+  .products img {
+    max-width: 60%;
+    padding-left: 15%;
+  }
 
 .about img {
   margin: 5%;
 }
 
-.soon img {
-margin-left: 0%;
+.contact {
+  margin-left: 5%;
+    max-width: 40%;
 }
 
-h1  {
-text-align: left;
-}
-
-.style, a, .bx {
-  font-size: 40px;
-}
-
-.products {
-  margin-left: 0%;
-}
-
-
+a {
+  font-size: 0.75em;
 
 }
 /* **********************End 400px Media Query******************* */
@@ -466,60 +458,33 @@ text-align: left;
 
   .contact {
     margin-left: 15%;
+      max-width: 45%;
   }
 
-  .about img {
-    margin: 1%;
-  }
-
-  .soon img {
-  margin-left: 15%;
-  }
-
-  h1  {
-  text-align: center;
-  }
-
-  .style, a, .bx {
-    font-size: 40px;
-  }
-
-  .products {
-    margin-left: 35%;
-  }
+  a {
+    font-size: 0.75em;
 }
-
 
 	/* *******************END 600PX MEDIA QUERY******************** */
   /* start 800px********************* */
 @media (min-width: 800px) {
 
 
- .contact {
-   margin-left: 25%;
- }
+  .contact {
+    margin-left: 25%;
+      max-width: 40%;
+  }
 
- .soon img {
- margin-left: 20%;
- }
-
- .style, a, .bx {
-   font-size: 52px;
-}
-
+  a {
+    font-size: 1em;
 }
 /* end 800px*************************************** */
 	/* ****************** START 1080PX MEDIA QUERY *****************
  */
  @media (min-width:1000px) {
 
-   .contact {
-  margin-left: 35%;
-   }
 
-   .soon img {
-   margin-left: 35%;
-   }
+
 
    .container {
    display: flex;
@@ -532,7 +497,24 @@ text-align: left;
      flex-direction: row;
      justify-content:space-around;
    }
+   .products {
+     background: #79a876;
+     max-width: 45%;
+     max-height: 60%;
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 2em;
+     margin-bottom: 3%;
+     margin-left: 25%;
+   }
 
+   .products img {
+     max-width: 80%;
+     padding-left: 20%;
+   }
+
+   a {
+     font-size: 1.5em;
+ }
 
 }
 
@@ -542,6 +524,10 @@ text-align: left;
 /* Start 1200px*********************************************** */
 
 @media (min-width: 1200px) {
+
+  a {
+    font-size: 1.5em;
+}
 
 }
 /* end 1200px************************************* */
