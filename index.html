@@ -3,28 +3,33 @@
 <head>
 <title>Shelkay's Boutique</title>
 <meta charset="utf-8" />
-
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ..<!--script-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <!-- FAVIcon -->
 <link rel="icon" type="image/png" href="images/favicon/favicon.png" />
 <link rel="icon" type="image/ico" href="images/favicon/favicon2.ico" />
   <!-- CSS -->
-
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="style/normalize.css" type="text/css" rel="stylesheet">
 <link href="style/style.css" rel="stylesheet" type="text/css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 <!--Google Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
 	<body class="site">
 
 		<button class="hamburger">&#9776;</button>
 		<button class="cross">&#735;</button>
 
-			  <header>
+			  <header class="home">
 			  <h1>Shelkay's Boutique<img src="images/favicon/Logo.jpg" atl="Boutique Logo" title="Shelkay's Boutique" width="80" /></h1>
+
 			    <nav class="menu">
 			      <ul>
 			        <li><a href="index.html">Home</a></li>
@@ -48,12 +53,12 @@
 
 			  <main class="site-content">
 			    <section class="intro">
-			      <h3>Explore all the endless possibilites</h3>
+			      <h6>Explore all the endless possibilites</h6>
 			        <p>Have you always wanted to give a homemade gift but did not have the extra time to make it?  Explore all the hand made gift’s from Shelkay’s Boutique.  Give the perfect gift without spending all the time it takes to make it.</p>
 					</section>
           <section class="container">
 						<div class="bday"><a href="birthday.html">Birthdays</a>
-							<img src="images/BD2.jpg" alt="Scarfs" title="Scarfs" /></div>
+							<img src="images/BD1.jpg" alt="Scarfs" title="Scarfs" /></div>
 
 						<div class="bday"><a href="holiday.html">Holidays</a>
 							<img src="images/5.jpg" alt="Scrubbies" title="Scrubbies" /></div>
@@ -63,29 +68,81 @@
 	        </section>
 
 
-			      <h3>Featured Items</h3><br />
-          <section class="container2">
-							<div class="bx">
-								<a class="style" href="DecorativeScarf.html">Decorative Scarf</a>
-							</div>
+			      <h6>Featured Items</h6><br />
 
-							<div class="bx">
-								<a class="style" href="BabyBlanket.html">Baby Blanket</a>
-							</div>
+			    <div class="banner-container">
+			        <ul class="ul-width" style="width: 16240px;">
+			            <li>
+										<h2>Decorative Scarf</h2>
+													<p>Made out of: 97% Acrylic and 3% Metallic Polyester</p>
+													<p>About 27 inches in length and 2 inches wide</p>
+													<p>Several different colors</p>
+													<p>Wear all season for fashion</p>
+			                <a href="#"><img src="images/BD2.jpg" alt="Scarfs" title="Multiple Colors"></a>
+			                <span class="overlay"></span>
+			            </li>
+			            <li>
+										<h2>Scrubbies</h2>
+												<p>Made out of 4 weight 100% Polyester and 4 weight Acrylic, Viscose and other fibers.</p>
+												<p>Can be used for dishes, pots or pans.</p>
+												<p>Can be used for face or skin care.</p>
+												<p>Several different colors.</p>
+			                <a href="#"><img src="images/SC.jpg" alt="Scrubbies" title="Multiple Colors"></a>
+			                <span class="overlay"></span>
+			            </li>
+			            <li>
+										<h2>Headband</h2>
+												<p>Made out of: 98% Acrylic and 2% Other Fiber</p>
+												<p>Several different colors</p>
+												<p>Wear all season or for fashion</p>
+			                <a href="#"><img src="images/headband.jpg" alt="Headband" title="Hot Pink, Pink & Brown"></a>
+			                <span class="overlay"></span>
+			            </li>
+			            <li>
+										<h2>Baby Blanket</h2>
+												<p>Made out of flannel material</p>
+												<p>Multi Colored</p>
+												<p>Solid color on one side and pattern on the other side</p>
+												<p>Size is about 1 yard</p>
+												<p>Batting in the middle</p>
+												<p>Blanket sewn together with a serger</p>
+			                <a href="#"><img src="images/blanket.jpg" alt="Baby Blanket" title="Elephant & Butterflies"</a>
+			                <span class="overlay"></span>
+			            </li>
+			            <li>
+										<h2>Hat & Cowl</h2>
+													<p>Made out of 98% acrylic and 2% other fiber.</p>
+													<p>Yarn is 5 ply with two strands.</p>
+													<p>Several different colors</p>
+													<p>Decorative buttons on hat and cowl</p>
+													<p>Use for winter seasons to keep warm</p>
+			                <a href="#"><img src="images/hatcowl.jpg" alt="Hat & Cowl" title="Purple & Black"></a>
+			                <span class="overlay"></span>
+			            </li>
+			        </ul>
+			        <div class="clear"></div>
+			    </div>
+			</body>
 
-							<div class="bx">
-								<a class="style" href="Headband.html">Headband</a>
-							</div>
 
-							<div class="bx">
-								<a class="style" href="HatCowl.html">Hat & Cowl</a>
-							</div>
-				 		</div>
 				</main>
 			  <footer class="home-footer">
-					<h4>Copyright 2020</h4>
+					<h5>Copyright 2020</h5>
 			  </footer>
+				<script type="text/javascript">
 
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-36251023-1']);
+				  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+				  _gaq.push(['_trackPageview']);
+
+				  (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+
+				</script>
 		<script src="js/hamburger.js"></script>
 
 		</body>
