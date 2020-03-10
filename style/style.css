@@ -118,6 +118,7 @@ justify-content:space-around;
 
 /* end sticky footer */
 
+
 h1  {
 font-family: 'Dancing Script', cursive;
 text-align: center;
@@ -157,7 +158,7 @@ figcaption {
     margin: 0 auto;
     color: white;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 5%;
   }
 
   nav a:hover {
@@ -482,9 +483,6 @@ a {
 	/* ****************** START 1080PX MEDIA QUERY *****************
  */
  @media (min-width:1000px) {
-
-
-
 
    .container {
    display: flex;
